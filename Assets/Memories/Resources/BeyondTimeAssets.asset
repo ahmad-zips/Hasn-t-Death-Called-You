@@ -19,7 +19,7 @@ MonoBehaviour:
   firePrefab: {fileID: 7458822935136899532, guid: 6f7c125f650547742b26034e4069a503, type: 3}
   fireBurstPrefab: {fileID: 0}
   fireEmberPrefab: {fileID: 0}
-  bridgePrefab: {fileID: 0}
+  bridgePrefab: {fileID: 5660454732431130924, guid: 2236cc7e49d168d4cb2b716bbd45f6a9, type: 3}
   portalPrefab: {fileID: 0}
   hellSkybox: {fileID: 2100000, guid: d9aace6dff3eb3c4db6065493d704834, type: 2}
   knifePrefab: {fileID: 0}
