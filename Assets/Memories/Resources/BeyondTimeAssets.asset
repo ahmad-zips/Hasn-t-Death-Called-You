@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c125609a7c80345bc9101a920f24a1, type: 3}
   m_Name: BeyondTimeAssets
   m_EditorClassIdentifier: Assembly-CSharp::BeyondTime.Game.BeyondTimeAssets
-  lavaMaterial: {fileID: 0}
+  lavaMaterial: {fileID: 2100000, guid: 842136f4129c2c54badde4451476f4fa, type: 2}
   lavaPrefab: {fileID: 0}
   groundMaterial: {fileID: 0}
   wallMaterial: {fileID: 0}
-  firePrefab: {fileID: 0}
+  firePrefab: {fileID: 7458822935136899532, guid: 6f7c125f650547742b26034e4069a503, type: 3}
   fireBurstPrefab: {fileID: 0}
   fireEmberPrefab: {fileID: 0}
   bridgePrefab: {fileID: 0}
   portalPrefab: {fileID: 0}
-  hellSkybox: {fileID: 0}
+  hellSkybox: {fileID: 2100000, guid: d9aace6dff3eb3c4db6065493d704834, type: 2}
   knifePrefab: {fileID: 0}
   gatePrefab: {fileID: 0}
   leverPrefab: {fileID: 0}
@@ -47,7 +47,7 @@ MonoBehaviour:
   waterMaterial: {fileID: 0}
   shrinePrefab: {fileID: 0}
   paradiseSkybox: {fileID: 0}
-  introVideo: {fileID: 0}
+  introVideo: {fileID: 32900000, guid: 2be2f6be4d3fea04e94c02d0193d57f2, type: 3}
   menuMusic: {fileID: 0}
   worldMusic: {fileID: 0}
   paradiseMusic: {fileID: 0}
@@ -61,13 +61,13 @@ MonoBehaviour:
   whooshSound: {fileID: 0}
   footsteps: []
   font: {fileID: 0}
-  menuBackground: {fileID: 0}
+  menuBackground: {fileID: 7538506849094194677, guid: bc7cda55fee54b340bc5379385beec28, type: 3}
   logo: {fileID: 0}
   panelSprite: {fileID: 0}
   buttonSprite: {fileID: 0}
-  pauseBackground: {fileID: 0}
-  gameOverBackground: {fileID: 0}
-  victoryBackground: {fileID: 0}
-  resultCardBackground: {fileID: 0}
+  pauseBackground: {fileID: -7762350047352875558, guid: e40e286b28df99a4dafbadcef7386ab2, type: 3}
+  gameOverBackground: {fileID: -6899527831451061053, guid: b1681ca9185188a48a3c9b212322073c, type: 3}
+  victoryBackground: {fileID: 4846896553144377880, guid: 71fad8bffbaed314a831e99d059ea5d0, type: 3}
+  resultCardBackground: {fileID: -3358933203163112000, guid: 18e8e6797f0df1549a60b29205d4dbbe, type: 3}
   videoPlaceholderImage: {fileID: 0}
   hudFrame: {fileID: 0}
