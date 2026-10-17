@@ -6,9 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Memories/Game/Scenes/BT_MainMenu.unity
+    guid: 2d144f13384900d4ca82579a32168e16
+  - enabled: 1
+    path: Assets/Memories/Game/Scenes/BT_GraveIntro.unity
+    guid: bba0e243899a7844b9ec4a7ff36b0f47
+  - enabled: 1
+    path: Assets/Memories/Game/Scenes/BT_HellfireWorld.unity
+    guid: 97c651c0caaece44c81c8e3b4beed36f
+  - enabled: 1
+    path: Assets/Memories/Game/Scenes/BT_Paradise.unity
+    guid: a19fe6251de46ff40acd2acc566bb6c2
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Maryam.unity
     guid: 69ef333dbb798ea49b6c8d5d5a15d1f8
   m_configObjects:

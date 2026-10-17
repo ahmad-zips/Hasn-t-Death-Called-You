@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c125609a7c80345bc9101a920f24a1, type: 3}
+  m_Name: BeyondTimeAssets
+  m_EditorClassIdentifier: Assembly-CSharp::BeyondTime.Game.BeyondTimeAssets
+  lavaMaterial: {fileID: 0}
+  lavaPrefab: {fileID: 0}
+  groundMaterial: {fileID: 0}
+  wallMaterial: {fileID: 0}
+  firePrefab: {fileID: 0}
+  fireBurstPrefab: {fileID: 0}
+  fireEmberPrefab: {fileID: 0}
+  bridgePrefab: {fileID: 0}
+  portalPrefab: {fileID: 0}
+  hellSkybox: {fileID: 0}
+  knifePrefab: {fileID: 0}
+  gatePrefab: {fileID: 0}
+  leverPrefab: {fileID: 0}
+  rubblePrefab: {fileID: 0}
+  escapeDoorPrefab: {fileID: 0}
+  projectilePrefab: {fileID: 0}
+  humanModel: {fileID: 0}
+  humanAnimator: {fileID: 0}
+  victimModel: {fileID: 0}
+  attackerModel: {fileID: 0}
+  lookoutModel: {fileID: 0}
+  friendModel: {fileID: 0}
+  shadowModel: {fileID: 0}
+  shadowMaterial: {fileID: 0}
+  shadowAnimator: {fileID: 0}
+  pursuerModel: {fileID: 0}
+  gatekeeperModel: {fileID: 0}
+  harrierModel: {fileID: 0}
+  paradiseGroundMaterial: {fileID: 0}
+  treePrefab: {fileID: 0}
+  flowerPrefab: {fileID: 0}
+  paradiseRockPrefab: {fileID: 0}
+  waterMaterial: {fileID: 0}
+  shrinePrefab: {fileID: 0}
+  paradiseSkybox: {fileID: 0}
+  introVideo: {fileID: 0}
+  menuMusic: {fileID: 0}
+  worldMusic: {fileID: 0}
+  paradiseMusic: {fileID: 0}
+  memoryRedeemedSting: {fileID: 0}
+  memoryCollapsedSting: {fileID: 0}
+  soulLostSting: {fileID: 0}
+  gameOverSting: {fileID: 0}
+  buttonClick: {fileID: 0}
+  punchHits: []
+  blockSound: {fileID: 0}
+  whooshSound: {fileID: 0}
+  footsteps: []
+  font: {fileID: 0}
+  menuBackground: {fileID: 0}
+  logo: {fileID: 0}
+  panelSprite: {fileID: 0}
+  buttonSprite: {fileID: 0}
+  pauseBackground: {fileID: 0}
+  gameOverBackground: {fileID: 0}
+  victoryBackground: {fileID: 0}
+  resultCardBackground: {fileID: 0}
+  videoPlaceholderImage: {fileID: 0}
+  hudFrame: {fileID: 0}

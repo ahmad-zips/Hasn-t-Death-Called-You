@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4190d4440ffbee645b59e3c203552134, type: 3}
+  m_Script: {fileID: 11500000, guid: 3cb30d6d94d0f784db79382f7f877cc0, type: 3}
   m_Name: MemorySettings
   m_EditorClassIdentifier: Assembly-CSharp::BeyondTime.Memories.MemorySettings
-  shadowPrefab: {fileID: 0}
+  shadowPrefab: {fileID: 2361892749813150429, guid: b66a98d4b7122a54b94bc35b08e58cc1, type: 3}
   maxAliveShadows: 8
-  saveProgressBetweenSessions: 0
+  saveProgressBetweenSessions: 1
   typewriterCharsPerSecond: 45
