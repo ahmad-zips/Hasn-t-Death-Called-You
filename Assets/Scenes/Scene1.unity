@@ -408,10 +408,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShadowChaser (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 4073507303995114626, guid: b758dca714f386745b40a81d162942bb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7824579382019315309, guid: b758dca714f386745b40a81d162942bb, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.54
@@ -507,110 +503,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1101097295 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 290884568573657152, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-  m_PrefabInstance: {fileID: 1265543349}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1101097296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101097295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af245ee56941fd7438121367fc4be0c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detectRange: 2
-  loseRange: 30
-  loseDelay: 4
-  needLineOfSight: 0
-  sightBlockers:
-    serializedVersion: 2
-    m_Bits: 0
-  wanderRadius: 25
-  pauseTime: {x: 1, y: 4}
-  wanderSpeed: 1.5
-  chaseSpeed: 3.8
-  attackRange: 1.7
-  attackCooldown: 2
-  timePenalty: 3
-  knockback: 6
-  spotSound: {fileID: 0}
-  attackSound: {fileID: 0}
---- !u!135 &1101097297
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101097295}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1101097298
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101097295}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!195 &1101097299
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1101097295}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
 --- !u!1001 &1112463537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -667,10 +559,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShadowChaser (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4073507303995114626, guid: b758dca714f386745b40a81d162942bb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7824579382019315309, guid: b758dca714f386745b40a81d162942bb, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.54
@@ -717,87 +605,6 @@ MonoBehaviour:
   knockback: 6
   spotSound: {fileID: 0}
   attackSound: {fileID: 0}
---- !u!1001 &1265543349
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 290884568573657152, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      propertyPath: m_Name
-      value: ShadowMonster
-      objectReference: {fileID: 0}
-    - target: {fileID: 290884568573959264, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 9.49
-      objectReference: {fileID: 0}
-    - target: {fileID: 290884568573959264, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 290884568573959264, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 15.19
-      objectReference: {fileID: 0}
-    - target: {fileID: 290884568573959264, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 290884568573959264, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 290884568573959264, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 290884568573959264, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 290884568573959264, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 290884568573959264, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 290884568573959264, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 290884568573959266, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.025
-      objectReference: {fileID: 0}
-    - target: {fileID: 290884568573959266, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.095
-      objectReference: {fileID: 0}
-    - target: {fileID: 290884568576773440, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2100000, guid: a540b7e0771a487438f2e7d3027d8a31, type: 2}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 290884568573657152, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1101097299}
-    - targetCorrespondingSourceObject: {fileID: 290884568573657152, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1101097298}
-    - targetCorrespondingSourceObject: {fileID: 290884568573657152, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1101097297}
-    - targetCorrespondingSourceObject: {fileID: 290884568573657152, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1101097296}
-  m_SourcePrefab: {fileID: 100100000, guid: 6ec18304030011c47aaa07296ea319e0, type: 3}
 --- !u!1 &1606600399
 GameObject:
   m_ObjectHideFlags: 0
@@ -1014,10 +821,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShadowChaser
       objectReference: {fileID: 0}
-    - target: {fileID: 4073507303995114626, guid: b758dca714f386745b40a81d162942bb, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7824579382019315309, guid: b758dca714f386745b40a81d162942bb, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.54
@@ -1041,4 +844,3 @@ SceneRoots:
   - {fileID: 6128928253677644327}
   - {fileID: 1112463537}
   - {fileID: 757517494}
-  - {fileID: 1265543349}
