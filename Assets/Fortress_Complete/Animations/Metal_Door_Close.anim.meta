@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f7db1aa5298474a4ba861cda4b459ea1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 402356
+  packageName: My Fantasy Fortress
+  packageVersion: 1.0.0
+  assetPath: Assets/Fortress_Complete/Animations/Metal_Door_Close.anim
+  uploadId: 984630

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ef8046f20d546694686f87370fc2f70d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 402356
+  packageName: My Fantasy Fortress
+  packageVersion: 1.0.0
+  assetPath: Assets/Fortress_Complete/Materials/M_IvyLeaves.mat
+  uploadId: 984630

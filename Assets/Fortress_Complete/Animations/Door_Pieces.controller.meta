@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 72c62d8867063274fa85a125c1480c6d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 402356
+  packageName: My Fantasy Fortress
+  packageVersion: 1.0.0
+  assetPath: Assets/Fortress_Complete/Animations/Door_Pieces.controller
+  uploadId: 984630

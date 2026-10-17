@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7ec2de800ea7ef94fb9f10c04f0416d3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 402356
+  packageName: My Fantasy Fortress
+  packageVersion: 1.0.0
+  assetPath: Assets/Fortress_Complete/Animations/Metal_Door_Open.anim
+  uploadId: 984630

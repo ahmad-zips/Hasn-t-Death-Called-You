@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b028db591f5d51d4c84217d25e0940ba
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 402356
+  packageName: My Fantasy Fortress
+  packageVersion: 1.0.0
+  assetPath: Assets/Fortress_Complete/Animations/Wood_Door_Close.anim
+  uploadId: 984630
